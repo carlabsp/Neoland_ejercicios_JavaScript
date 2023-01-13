@@ -11,18 +11,26 @@ console.log(avengers3.length);
 
 const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
 rickAndMortyCharacters.push("Morty", "Summer");
-console.log(rickAndMortyCharacters); 
+console.log(rickAndMortyCharacters);
 const rickAndMortyCharacter = rickAndMortyCharacters[4];
-console.log(rickAndMortyCharacter) 
+console.log(rickAndMortyCharacter);
 
-const rickAndMortyCharacters2 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+const rickAndMortyCharacters2 = [
+  "Rick",
+  "Beth",
+  "Jerry",
+  "Morty",
+  "Summer",
+  "Lapiz Lopez",
+];
 rickAndMortyCharacters2.pop();
 console.log(rickAndMortyCharacters2);
 
-const rickAndMortyCharacters3 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
-
-
-
-
-
-
+const rickAndMortyCharacters3 = [
+  "Rick",
+  "Beth",
+  "Jerry",
+  "Morty",
+  "Summer",
+  "Lapiz Lopez",
+];
