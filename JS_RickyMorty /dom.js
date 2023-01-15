@@ -657,7 +657,9 @@ const printInDocument = (list) => {
     container.innerHTML += `
           <div class='card'>
               <h2>${item.name}</h2>
-              <p>${item.description}</p>
+              <p>${item.status}</p>
+              <i>${item.origin}</i>
+              <b>${item.location}</b>
               <img src=${item.image} alt=${item.name} />
           </div>
           `;
@@ -666,9 +668,11 @@ const printInDocument = (list) => {
 
 //Vamos a mapear los personajes para quedarnos con la información que se nos solicita
 const mapCharacters = () => {
-  const res = swCharacters.characters.map((character) => ({
+  const res = characters.results.map((character) => ({
     name: character.name,
-    description: character.description,
+    status: character.status,
+    origin: character.origin.name,
+    location: character.location.name,
     image: character.image,
   }));
   //Ya ha terminado de generar res
@@ -676,3 +680,5 @@ const mapCharacters = () => {
 };
 
 mapCharacters();
+
+

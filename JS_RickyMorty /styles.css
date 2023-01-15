@@ -1,0 +1,9 @@
+.card {
+    background-color: grey;
+  }
+  
+  img {
+    width: 300px;
+    object-fit: cover;
+  }
+  
