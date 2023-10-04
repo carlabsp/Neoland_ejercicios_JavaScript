@@ -1,12 +1,7 @@
 const numbers = [1, 2, 3, 5, 45, 37, 58];
 
-function sumAll(param) 
-for (const param of numbers) {
-console.log(sumAll (param));
+function sumAll(numbers) {
+   const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue);
+    console.log(sum);
 }
-
-
-
-
-
 

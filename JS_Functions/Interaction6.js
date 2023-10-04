@@ -11,14 +11,13 @@ const duplicates = [
     'pasta',
     'soda'
   ];
-  function removeDuplicates(param) {
+  function removeDuplicates(duplicates) {
 let orderedItems = duplicates(list)
-console.log(orderedItems)
 iterateList(orderedItems)
-return orderedItems
-  }
+console.log(orderedItems)}
 
-
+return removeDuplicates
+  
 
 
  // let orderedItems = orderListItem(list)
